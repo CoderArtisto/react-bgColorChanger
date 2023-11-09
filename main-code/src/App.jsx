@@ -7,15 +7,6 @@ function App() {
   const [color, setColor] = useState("pink");
   return (
     <>
-      {/* <button onClick={yellow}>Yellow</button>
-      <button onClick={yellow}>Blue</button>
-      <button onClick={yellow}>Green</button>
-      <button onClick={yellow}>Black</button>
-      <button onClick={yellow}>White</button>
-      <button onClick={yellow}>Orange</button>
-      <button onClick={yellow}>brown</button>
-      <button onClick={yellow}>Reset to Pink</button> */}
-
       <div
         className="h-screen w-full duration-200"
         style={{ backgroundColor: color }}
